@@ -32,6 +32,6 @@ as version 0.2, but thats only because it had a false start (albeit an education
 As far as a roadmap goes:
 
 |=Version Number|=Goal|=Status|
-|0.2.0|Starting the project|Done|
-|0.3.0|Completion of the initial front end library (fireUI)|IN PROGRESS|
-|0.4.0|Completion of core application logic (EarthDispatch)|PLANNING|
+|0.2.0|Starting the project|**DONE**|
+|0.3.0|Completion of the initial front end library (fireUI)|**IN PROGRESS**|
+|0.4.0|Completion of core application logic (EarthDispatch)|**PLANNING**|
