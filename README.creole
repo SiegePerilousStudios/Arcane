@@ -10,14 +10,14 @@ The framework is split into four main modules named after the four 'elements'.
 
 
 This framework has four components:
-*====fireUI
+* **fireUI**\\
 The front end library with advanced javascript interactivity and pre-rendering composition help.
-*====EarthDispatch
+* **EarthDispatch**\\
 The centre of the application is the application dispatch module. This routes controllers and provides
 access to all libraries.
-*====waterBase
+* **waterBase**\\
 The database abstraction layer/ORM.
-*====wind{{{*}}}
+* **wind**\\{{{*}}}
 TBD
 
 
