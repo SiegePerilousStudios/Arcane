@@ -1,0 +1,37 @@
+==Arcane Web Application Framework
+
+===Contributors
+*Alisdair Rankine [[mailto:info@alisdairrankine.com|<info@alisdairrankine.com>]]
+*you?
+
+===Project Description
+The framework is split into four main modules named after the four 'elements'.
+
+
+
+This framework has four components:
+*====fireUI
+The front end library with advanced javascript interactivity and pre-rendering composition help.
+*====EarthDispatch
+The centre of the application is the application dispatch module. This routes controllers and provides
+access to all libraries.
+*====waterBase
+The database abstraction layer/ORM.
+*====wind{{{*}}}
+TBD
+
+
+
+===Status/Roadmap
+
+
+Arcane is just a baby, it's status can be described as fledgling. Technically it could be described
+as version 0.2, but thats only because it had a false start (albeit an educational false start).
+
+
+As far as a roadmap goes:
+
+|=Version Number|=Goal|=Status|
+|0.2.0|Starting the project|Done|
+|0.3.0|Completion of the initial front end library (fireUI)|IN PROGRESS|
+|0.4.0|Completion of core application logic (EarthDispatch)|PLANNING|
