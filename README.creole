@@ -1,7 +1,7 @@
 ==Arcane Web Application Framework
 
 ===Contributors
-*Alisdair Rankine [[mailto:info@alisdairrankine.com|<info@alisdairrankine.com>]]
+* **Alisdair Rankine** <info@alisdairrankine.com>
 *you?
 
 ===Project Description
