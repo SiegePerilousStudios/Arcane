@@ -1,10 +1,10 @@
 ==Arcane Web Application Framework
 
-===Contributors
+==Contributors
 * **Alisdair Rankine** <info@alisdairrankine.com>
 *you?
 
-===Project Description
+==Project Description
 The framework is split into four main modules named after the four 'elements'.
 
 
@@ -22,7 +22,7 @@ TBD
 
 
 
-===Status/Roadmap
+==Status/Roadmap
 
 
 Arcane is just a baby, it's status can be described as fledgling. Technically it could be described
@@ -37,9 +37,9 @@ As far as a roadmap goes:
 |0.4.0|Completion of core application logic (EarthDispatch)|**PLANNING**|
 
 
-===Modules
+==Modules
 
-====fireUI
+===fireUI
 
 **Module Description**\\
 The module offers libraries for user interface development and interactivity
@@ -52,6 +52,6 @@ Class for creating, concatenating and manipulating tables.
 *fireModal\\
 Class for creating and manipulating modal dialogs.
 
-====earthDispatch
+===earthDispatch
 
-====waterBase
+===waterBase
