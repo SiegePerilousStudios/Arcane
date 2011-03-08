@@ -49,7 +49,7 @@ The module offers libraries for user interface development and interactivity
 *fireTable\\
 Class for creating, concatenating and manipulating tables.
 
-*fireModal\\
+*fireBox\\
 Class for creating and manipulating modal dialogs.
 
 ===earthDispatch
