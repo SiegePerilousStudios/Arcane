@@ -1,8 +1,5 @@
 <?php
-/* 
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+        
 
 /**
  * waterMongo provides access to a mongo database to
@@ -43,7 +40,14 @@ class waterMongo {
 
         } else {
             //--------------------------------------- update existing document
-            $this->mWcollection->update();
+            $this->mWcollection = get_class($object);
+            $insertArray=get_vars($object);
+            $inserArray2=array();
+            $id["_id"]=$id;
+            foreach($insertArray as $k=>$v){
+                if ($k!="_id")$insertArray2[$k]=$v;
+            }
+            $this->mWcollection->update($insertArray2,$id);
         }
     }
 
@@ -66,6 +70,14 @@ class waterMongo {
             return $stick;
         }
 
+
+    }
+    public function delete($object,$id){
+
+            //--------------------------------------- update existing document
+            $this->mWcollection = get_class($object);
+            $id["_id"]=$id;
+            $this->mWcollection->remove($id);
 
     }
 
