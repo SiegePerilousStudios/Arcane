@@ -17,9 +17,10 @@ The centre of the application is the application dispatch module. This routes co
 access to all libraries.
 * **waterBase**\\
 The database abstraction layer/ORM.
-* **wind**{{{*}}}\\
-TBD
-
+* **windSure**\\
+Quality assurance library. All testing, reporting, security and validation libraries lie here.
+* **Leeloo**\\
+Extensions - A fifth element.
 
 
 ==Status/Roadmap
@@ -54,4 +55,26 @@ Class for creating and manipulating modal dialogs.
 
 ===earthDispatch
 
+**Module Description**\\
+This module offers all routing and logic for an application. This is the starting
+point and the end point for an application.
+
 ===waterBase
+
+**Module Description**\\
+This module provides access to databases and allows serialisation of objects.
+
+
+**Class List**\\
+*waterMongo\\
+class for storing objects in a mongoDB server.
+
+===windSure
+
+**Module Description**\\
+This module covers 3 areas: Security/validation, Testing and Reporting/analytics
+
+===leeloo
+
+**Module Description**\\
+This module provides an interface for developing extensions to Arcane
