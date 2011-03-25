@@ -62,7 +62,7 @@ point and the end point for an application.
 ===waterBase
 
 **Module Description**\\
-This module provides access to databases and allows serialisation of objects.
+This module provides access to databases and allows serialisation of objects. An object that implements a waterBase interface (not yet written, see Issues)
 
 
 **Class List**\\
